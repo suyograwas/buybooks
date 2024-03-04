@@ -1,0 +1,132 @@
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table .btn {
+    max-width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background: tomato;
+}
+
+
+form {
+    background: snow;
+    border-radius: 20px;
+    height: 550px;
+    width:550px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+label span{
+    color:rgba(173, 158, 158, 0.774);
+}
+
+.temp{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    max-width: 300px;
+}
+.temp span{
+    font-size: 25px;
+}
+form .fa{
+    float: right;
+    padding-right: 50px;
+}
+
+
+/* -------------------------------orders------------------------- */
+#success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+#success form{
+    width: 350px;
+    height: 350px;
+    border-radius: 0;
+  
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.img img{
+    width:auto;
+    max-height:150px;
+    padding-top: 20px;
+}
+ #success .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    border-radius: 3px;
+}
+
+.row{
+    padding-top: 10px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.heading h2{
+    font-size: 30px;
+}
+.para{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+        font-size: 15px;
+}
+.info {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+    width: 300px;
+    padding: 5px;
+    padding-left: 50px;
+}
+  .info span{
+    color: rgba(124, 123, 123, 0.938);
+    
+  }
+@media screen and (max-width: 660px) {
+    form{
+        height: 550px;
+        width:500px;
+    }
+
+
+}
+@media screen and (max-width: 500px) {
+    form{
+        height: 550px;
+        width:370px;
+    }
+}
